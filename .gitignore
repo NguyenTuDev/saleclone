@@ -1,0 +1,27 @@
+# File cấu hình nhạy cảm
+config.php
+
+# File log
+error_log
+error.log
+*.log
+
+# File cơ sở dữ liệu
+tuanoriit.sql
+*.sql
+
+# Thư mục chứa dữ liệu người dùng hoặc file upload
+upload/
+
+# File tạm hoặc cache
+*.tmp
+*.cache
+
+# Thư mục hoặc file nhạy cảm khác (nếu có)
+2fa/
+
+# Bỏ qua file .htaccess nếu chứa thông tin nhạy cảm
+.htaccess
+
+# Bỏ qua các file môi trường (nếu có)
+.env
